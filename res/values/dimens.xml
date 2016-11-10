@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 此处可调整DirectionalCarousel内容的长宽,已达到不同的展现效果 -->
+    <dimen name="page_content_width">240dp</dimen>
+    <dimen name="page_content_height">120dp</dimen>
+
+</resources>

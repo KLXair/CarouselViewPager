@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.klxair.ui.view.viewpager.directionalcarousel.page.PageLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- android:foreground设置点击背景 -->
+
+    <com.klxair.ui.view.viewpager.directionalcarousel.fglayout.ForegroundLinearLayout
+        android:id="@+id/page_content"
+        android:layout_width="@dimen/page_content_width"
+        android:layout_height="@dimen/page_content_height"
+        android:clickable="true"
+        android:foreground="@drawable/item_selector"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_pho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" >
+        </ImageView>
+    </com.klxair.ui.view.viewpager.directionalcarousel.fglayout.ForegroundLinearLayout>
+
+</com.klxair.ui.view.viewpager.directionalcarousel.page.PageLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 调节点击颜色 -->
+    <color name="select_color">#33000000</color>
+
+</resources>
